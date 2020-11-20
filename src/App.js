@@ -5,6 +5,8 @@ import logo from "./logo.svg"
 import CakeContainer from "./components/CakeContainers"
 import "./App.css"
 import HooksCakeContainer from "./components/HooksCakeContainer"
+import IceCreamContainer from "./components/IceCreamsContainer"
+import NewCakeContainer from "./components/NewCakeContainer"
 
 function App() {
   console.log(store)
@@ -13,6 +15,8 @@ function App() {
       <div className="App">
         <CakeContainer />
         <HooksCakeContainer />
+        <IceCreamContainer />
+        <NewCakeContainer />
       </div>
     </Provider>
   )
